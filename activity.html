@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pollution Around Us</title>
+
+
+*<style>
+{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family:Arial, sans-serif;
+
+}
+
+ body{
+      background:linear-gradient(to right,#d4fc79,#96e6a1);
+      color:#333;
+}
+ 
+ header{
+     background:#00695c;
+     color:white;
+     text-align:center;
+     padding:20px;
+     animation:slideDown 1s ease;
+ 
+}
+
+ 
+ nav a{
+     color:white;
+     text-decoration:none;
+     margin:15px;
+     font-weight:bold;
+ 
+
+}
+
+
+ nav a:hover{
+     color:yellow;
+
+
+ }
+
+ .hero{
+    text-align:center;
+    padding:40px;
+
+
+}
+
+ .hero h1{
+     font-size:45px;
+     color:#004d40;
+
+}
+
+
+ .hero p{
+    margin-top:15px;
+    font-size:18px;
+
+}
+
+
+ .cards{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:20px;
+      padding:30px;
+
+}
+
+ 
+ .card{
+     background:white;
+     width:280px;
+     border-radius:15px;
+     overflow:hidden;
+     box-shadow:0 4px 12px rgba(0,0,0,0.2):
+
+}
+
+ 
+ .card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:10px;
+    color:#00695c;
+}
+
+.card p{
+    padding:0 10px 15px;
+}
+
+.section{
+    padding:40px;
+    text-align:center;
+}
+
+.section h2{
+    color:#004d40;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#004d40;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+button{
+    background:#00695c;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#004d40;
+}
+
+@keyframes slideDown{
+    from{
+        transform:translateY(-100px);
+        opacity:0;
+    }
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Pollution Around Us</h1>
+    <p>Save Nature • Save Future</p>
+</header>
+
+<nav>
+    <a href="#air">Air Pollution</a>
+    <a href="#water">Water Pollution</a>
+    <a href="#noise">Noise Pollution</a>
+    <a href="#solution">Solutions</a>
+</nav>
+
+<section class="hero">
+    <h1>Let's Protect Our Environment</h1>
+    <p>Pollution is one of the biggest challenges facing our planet today.</p>
+</section>
+
+<div class="cards">
+
+<div class="card" id="air">
+    <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=600" alt="">
+    <h3>Air Pollution</h3>
+    <p>Smoke from factories and vehicles contaminates the air and affects health.</p>
+</div>
+
+<div class="card" id="water">
+    <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600" alt="">
+    <h3>Water Pollution</h3>
+    <p>Industrial waste and plastic dumped into rivers harm aquatic life.</p>
+</div>
+
+<div class="card" id="noise">
+    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=600" alt="">
+    <h3>Noise Pollution</h3>
+    <p>Excessive sound from traffic and loudspeakers causes stress and discomfort.</p>
+</div>
+
+</div>
+
+<section class="section" id="solution">
+    <h2>How Can We Reduce Pollution?</h2>
+    <p>
+        ✔️ Plant more trees<br>
+        ✔️ Use public transport<br>
+        ✔️ Avoid single-use plastics<br>
+        ✔️ Recycle waste materials<br>
+        ✔️ Save electricity and water
+    </p>
+
+    <button onclick="alert('Together We Can Save Earth! 🌍')">
+        Click for a Green Message
+    </button>
+</section>
+
+<footer>
+    Created by Aadit Bajaj <br>
+    Class VIII-D - HTML5 & CSS Project
+</footer>
+
+</body>
+</html>
