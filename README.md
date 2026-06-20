@@ -1,2 +1,2 @@
-# my-second-website
+# SCHOOL PROJECT 
 my first website is cool you should probably see it :)
